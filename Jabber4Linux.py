@@ -1045,7 +1045,7 @@ class MainWindow(QtWidgets.QMainWindow):
 
             # set up SIPS encryption if configured
             tlsOptions = None
-            if(device['deviceSecurityMode'] == '2' or device['deviceSecurityMode'] == '3'):
+            if(False):
                 port = device['callManagers'][0]['sipsPort']
 
                 # find/load corresponding client cert
